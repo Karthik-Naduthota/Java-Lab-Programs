@@ -14,7 +14,8 @@ public class EBike extends Bicycle {
 		}
 		@Override
 		public void deliver(String item, String place) {
-			System.out.println("checking battery" + battery + "%");
+			System.out.println("check battery" + battery + "%");
 			super.deliver(item,place);
 	}
 }
+
